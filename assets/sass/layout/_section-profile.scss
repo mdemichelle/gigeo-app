@@ -1,0 +1,40 @@
+
+.profile{
+    justify-content: flex-start;
+  &__foto{
+      background-image: url('../img/profile-image.png');
+      background-size: cover;
+      height:  50px;
+      width: 50px;
+      border-radius: 50%;
+  }
+  &__info{
+    font-size: 0.8125rem; 
+
+    .nombre{
+        margin: 0;
+        padding: 0;
+
+    }
+    
+    .seguidores{
+        margin: 0;
+        padding: 0;
+        color: slategrey;
+    }
+  }
+}
+.media{
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+@media(max-width:700px)
+{   .nombre{
+    font-size: 1.25rem;
+}
+    .media__botones{
+        display: none;
+    }
+}

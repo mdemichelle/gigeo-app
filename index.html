@@ -3,10 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>GIGEO APP</title>
 </head>
 <body>
-    
+<!------------------------------------------NavBar---------------------------------------------------->    
+<nav class="navbar navbar-expand-md navbar-light">
+    <div class="container navigation">
+  <a class="navbar-brand navigation__title" href="#">GIGEO <sup class="navigation__indice">ART</sup> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span ><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-link active" href="#"><i class="fas fa-search"></i>
+        <span class="sr-only">(current)</span></a>
+      <a class="nav-link active" href="#"><i class="fas fa-video"></i></a>
+      <a class="nav-link active" href="#"><i class="fas fa-plus"></i></a>
+      <a class="nav-link active" href="#"><i class="fas fa-bell"></i></a>
+    </div>
+  </div>
+</div>
+</nav>
+<!-------------------------------Encabezado------------------------------------------------->
+<header class="container-fluid header"></header>
+<!-------------------------------------Seccion perfil-------------------------------------------->
+<section class="container-fluid border-bottom py-4">
+  <div class="row mx-3">
+    <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12 profile d-flex">
+      <div class="profile__foto mx-3"></div>
+      <div class="profile__info ">
+        <h4 class="nombre">Yuki Mukami</h4>
+        <p class="seguidores">30.000 seguidores</p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 d-none col-sm-12 media d-flex">
+      <div class="media__botones">
+      <button class="button blue">Mensaje</button>
+      <button class="button red">Seguir</button>
+    </div>
+    </div>
+  </div>
+
+</section>
+
+<!------------------------------------JS------------------------------------------------------->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
