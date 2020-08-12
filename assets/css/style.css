@@ -9939,6 +9939,20 @@ h3 {
     height: 96px;
   }
 }
+.button {
+  border: 0;
+  color: white;
+  font-size: 0.875rem;
+  margin-left: 10px;
+  padding: 5px;
+}
+.button.red {
+  background-color: #F06562;
+}
+.button.blue {
+  background-color: #92DCE5;
+}
+
 .profile {
   justify-content: flex-start;
 }
@@ -9955,6 +9969,7 @@ h3 {
 .profile__info .nombre {
   margin: 0;
   padding: 0;
+  font-weight: bold;
 }
 .profile__info .seguidores {
   margin: 0;
@@ -9975,19 +9990,19 @@ h3 {
   .media__botones {
     display: none;
   }
+
+  .contenido__titulo {
+    text-align: center;
+  }
 }
-.button {
-  border: 0;
-  color: white;
-  font-size: 0.875rem;
-  margin-left: 10px;
-  padding: 5px;
+.card {
+  border: none;
 }
-.button.red {
-  background-color: #F06562;
+.card .card-body {
+  padding: 0;
 }
-.button.blue {
-  background-color: #92DCE5;
+.card .card-title {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
